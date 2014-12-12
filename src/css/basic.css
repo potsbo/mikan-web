@@ -1,0 +1,10 @@
+nav {
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	text-align: center;
+	margin: 10px;
+}
+
