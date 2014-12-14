@@ -1,6 +1,7 @@
 body {
 	font-family: verdana,helvetica,arial,sans-serif;
 	margin: 0 0 0 0;
+	color: #555555;
 }
 
 nav {
@@ -38,10 +39,13 @@ a:hover {
 	    color: #F39800;
 }
 
-hr {
-	margin-left: 0;
-	margin-right: 0;
-	padding-left: 0;
+article > .wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-weight: normal;
 }
 
 footer {
