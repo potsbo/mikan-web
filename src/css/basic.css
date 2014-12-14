@@ -1,14 +1,20 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
 body {
 	font-family: verdana,helvetica,arial,sans-serif;
 	margin: 0 0 0 0;
-	color: #555555;
+	color: black;
+	min-height: 100%;
+	padding-bottom: 90px;
 }
 
 nav {
 	padding-top: 18px;
 	font-size: 18px;
 	border-bottom-style: solid;
-	border-bottom-color: #888888;
+	border-bottom-color: #999999;
 	border-bottom-width:2px;
 	padding-bottom: 12px;
 	width: 100%;
@@ -25,14 +31,14 @@ nav > .wrapper > a:first-child {
 }
 
 nav a {
-	color: #555555;
+	color: black;
 	text-decoration: none;
 	text-align: center;
 	margin-right: 18px;
 }
 
 a:visited {
-	    color: #555555;
+	    color: black;
 }
 
 a:hover {
@@ -45,7 +51,23 @@ article > .wrapper {
 }
 
 h2 {
+	margin-top: 12px;
+	margin-bottom: 30px;
 	font-weight: normal;
+	
+}
+
+h3 {
+	font-weight: normal;
+	border-bottom: solid;
+	border-bottom-color: #999999;
+	border-bottom-width: 2px;
+	margin-top: 48px;
+	margin-bottom: 8px;
+}
+
+p {
+	margin-top: 8px;
 }
 
 footer {
@@ -56,6 +78,8 @@ footer {
 	position: absolute;
 	height: 60px;
 	width: 100%;
+	background-color: white;
+	margin-top: 30px;
 }
 
 footer .wrapper {
