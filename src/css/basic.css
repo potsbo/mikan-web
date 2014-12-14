@@ -1,17 +1,33 @@
 body {
 	font-family: verdana,helvetica,arial,sans-serif;
+	margin: 0 0 0 0;
 }
 
 nav {
-	text-align: center;
-	font-size: 18px
+	padding-top: 18px;
+	font-size: 18px;
+	border-bottom-style: solid;
+	border-bottom-color: #888888;
+	border-bottom-width:2px;
+	padding-bottom: 12px;
+	width: 100%;
+}
+
+nav .wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav > .wrapper > a:first-child {
+	font-size: 36px;
+	margin-right: 36px;
 }
 
 nav a {
 	color: #555555;
 	text-decoration: none;
 	text-align: center;
-	margin: 18px;
+	margin-right: 18px;
 }
 
 a:visited {
@@ -22,3 +38,23 @@ a:hover {
 	    color: #F39800;
 }
 
+hr {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+}
+
+footer {
+	border-top: solid;
+	border-top-color: #888888;
+	border-top-width: 2px;
+	bottom: 0;
+	position: absolute;
+	height: 60px;
+	width: 100%;
+}
+
+footer .wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
