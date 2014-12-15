@@ -1,0 +1,11 @@
+<header>
+	<nav>
+		<a href="/">Mikan Laboratories</a>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a href="{{ page.url }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+		<a href=http://blog.mikan-labs.com/>Blog</a>
+	</nav>
+</header>
