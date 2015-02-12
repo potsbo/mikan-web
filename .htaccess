@@ -1,0 +1,14 @@
+Options FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^mikan-labs\.com
+RewriteRule ^(.*) http://www.mikan-labs.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^157\.7\.236\.70
+RewriteRule ^(.*) http://www.mikan-labs.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^juice\.mikan-labs\.com
+RewriteRule ^(.*) http://www.mikan-labs.com/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://www.mikan-labs.com/$1 [R=301,L]
