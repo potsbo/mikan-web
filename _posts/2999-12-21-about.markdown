@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "About"
+excerpt: "Walter Elias Disney was an American entrepreneur, cartoonist, animator, voice actor, and film producer. As a prominent..."
+categories: history
+tags:  disney
+image:
+  feature: about.jpg
+  topPosition: 0px
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
+---
+
+## みらんらぼとは
+みかんらぼはITを勉強しそれを活用したプロダクトの制作を行なう団体です。
+みかんの置いてあるこたつを囲んでいるような雰囲気でゆるゆると楽しくやっていければという思いを込めています。
+
