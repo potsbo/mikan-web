@@ -2,8 +2,6 @@
 layout: post
 title:  "About"
 excerpt: "Walter Elias Disney was an American entrepreneur, cartoonist, animator, voice actor, and film producer. As a prominent..."
-categories: history
-tags:  disney
 image:
   feature: about.jpg
   topPosition: 0px
